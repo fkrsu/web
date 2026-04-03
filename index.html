@@ -3,37 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biografi Saya | Personal Landing Page</title>
+    <title>Fikri Sudrajat | Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
+    <nav>
+        <div class="container nav-wrapper">
+            <div class="logo">FS</div>
+            <div class="nav-links">
+                <a href="#about">Tentang</a>
+                <a href="#experience">Pengalaman</a>
+                <a href="#contact">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
     <header>
-        <div class="container">
-            <div class="profile-info">
-                <h1>Halo, Saya [Nama Anda]</h1>
-                <p class="tagline">Developer | Creator | Enthusiast</p>
-                <div class="social-links">
-                    <a href="https://github.com/username"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:email@anda.com"><i class="fas fa-envelope"></i></a>
+        <div class="container hero">
+            <span class="greeting">Professional Portfolio</span>
+            <h1>Fikri Sudrajat</h1>
+            <p class="role">Software Engineer & Solution Architect</p>
+            <div class="cta-group">
+                <a href="mailto:fikri.sudrajat@email.com" class="btn primary">Hubungi Saya</a>
+                <div class="social-minimal">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <section id="about">
-            <h2>Tentang Saya</h2>
-            <p>Tuliskan ringkasan singkat mengenai perjalanan profesional atau minat Anda di sini. Jelaskan apa yang membuat Anda bersemangat dan apa yang sedang Anda kerjakan saat ini.</p>
+        <section id="about" class="section">
+            <div class="section-grid">
+                <div class="section-title">
+                    <h2>Tentang</h2>
+                </div>
+                <div class="section-content">
+                    <p>Saya adalah seorang profesional yang berfokus pada pengembangan sistem yang efisien dan skalabel. Dengan dedikasi tinggi terhadap kualitas kode dan inovasi teknologi, saya membantu bisnis membangun solusi digital yang memberikan dampak nyata.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="skills">
-            <h2>Keahlian</h2>
-            <div class="skills-grid">
-                <span>HTML/CSS</span>
-                <span>JavaScript</span>
-                <span>UI/UX Design</span>
+        <hr>
+
+        <section id="experience" class="section">
+            <div class="section-grid">
+                <div class="section-title">
+                    <h2>Keahlian Utama</h2>
+                </div>
+                <div class="section-content">
+                    <div class="expertise-list">
+                        <div class="item">
+                            <h3>Full Stack Development</h3>
+                            <p>Membangun aplikasi end-to-end dengan teknologi modern.</p>
+                        </div>
+                        <div class="item">
+                            <h3>System Architecture</h3>
+                            <p>Merancang infrastruktur cloud yang aman dan andal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Fikri Sudrajat. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
                 <span>Project Management</span>
             </div>
         </section>
